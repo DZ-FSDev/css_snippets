@@ -1,6 +1,13 @@
-/* Emulates a thin glass pane with text content. */
-.glassPane {
+/* Emulates a thin smoked glass pane with text content. */
+.smokedGlass {
   background-color: #0029;
   box-shadow: 3px 3px #001c;
   text-shadow: 3px 3px #0007;
+}
+
+/* Emulates a thin glass pane with text content. */
+.glass {
+  background-color: #1357;
+  box-shadow: 3px 3px #1139;
+  text-shadow: 3px 3px #1115;
 }
