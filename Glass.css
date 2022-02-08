@@ -1,0 +1,6 @@
+/* Emulates a thin glass pane with text content. */
+.glassPane {
+  background-color: #0029;
+  box-shadow: 3px 3px #001c;
+  text-shadow: 3px 3px #0007;
+}
