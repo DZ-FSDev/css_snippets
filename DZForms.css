@@ -10,3 +10,7 @@ fieldset.mustard{
     border-image: linear-gradient(#EE08, transparent) 1;
     box-shadow: 5px 3px 2px 2px #DE05;
 }
+fieldset.sugar{
+    border-image: linear-gradient(#FFF8, transparent) 1;
+    box-shadow: 5px 3px 2px 2px #CCC5;
+}
