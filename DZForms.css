@@ -2,3 +2,7 @@ fieldset.ketchup{
     border-image: linear-gradient(#F009, transparent) 1;
     box-shadow: 5px 3px 2px 2px #FA05;
 }
+fieldset.relish{
+    border-image: linear-gradient(#0F08, transparent) 1;
+    box-shadow: 5px 3px 2px 2px #AF05;
+}
