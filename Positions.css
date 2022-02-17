@@ -1,0 +1,10 @@
+/* Footer Centered at End of Page */
+footer{
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
