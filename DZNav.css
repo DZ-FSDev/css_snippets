@@ -1,4 +1,9 @@
-.breadcrumbsRightGulliments li+li::before{
+.breadcrumbs .rightGuillemets li+li::before{
     content: "\00BB";
+    margin-right: 5px;
+}
+
+.breadcrumbs .leftGuillemets li+li::before{
+    content: "\00AB";
     margin-right: 5px;
 }
