@@ -1,0 +1,18 @@
+table{
+ 	overflow: hidden;
+}
+
+td, th{
+    position: relative;
+}
+
+td:hover::after { 
+    background-color: #FA03;
+    content: '';  
+    height: 10000px;    
+    left: 0;
+    position: absolute;  
+    top: -5000px;
+    width: 100%;
+    z-index: -1;       
+}
