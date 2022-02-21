@@ -1,0 +1,41 @@
+form.coffee fieldset {
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid;
+	border-image: linear-gradient(#FA08, transparent) 1;
+}
+
+form.coffee input[type="submit"], form.coffee input[type="reset"] {
+	margin-top: 1em;
+	padding: 0.8em 1em;
+}
+
+form.coffee input[type="submit"], form.coffee input[type="reset"] {
+	padding: 0.8em 1em;
+}
+
+/*
+	<label for="id">id
+		<input name="id" id="id" />
+	</label>
+*/
+form.coffee label {
+	display: inline-block
+}
+
+form.coffee input:hover {
+	background-color: #FA0;
+	border: white 5px solid;
+}
+
+form.coffee input, label {
+	color: #000;
+	background-color: transparent;
+	background-image: linear-gradient(#FA08, #FA03);
+	text-align: center;
+	transition: all 0.2s;
+	padding: 0.2em 0em;
+	margin-left: 1em;
+	border-radius: 2em;
+	border: 5px transparent solid;
+}
