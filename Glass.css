@@ -15,3 +15,11 @@
   backdrop-filter: blur(1.6px);
   -webkit-backdrop-filter: blur(1.6px);
 }
+
+.relishGlass {
+	background-color: #2E01;
+	box-shadow: 3px 3px #1D03;
+	text-shadow: 3px 3px #1D01;
+	backdrop-filter: blur(2.6px);
+	-webkit-backdrop-filter: blur(2.6px);
+}
