@@ -1,0 +1,5 @@
+fieldset.sugar{
+  border: 2px solid;
+  border-image: linear-gradient(#FFF8, transparent) 1;
+  box-shadow: 5px 3px 2px 2px #CCC5;
+}
