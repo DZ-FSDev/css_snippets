@@ -23,3 +23,11 @@
 	backdrop-filter: blur(2.6px);
 	-webkit-backdrop-filter: blur(2.6px);
 }
+
+.coffeeGlass {
+	background-color: #FA01;
+	box-shadow: 3px 3px #D803;
+	text-shadow: 3px 3px #D801;
+	backdrop-filter: blur(2.6px);
+	-webkit-backdrop-filter: blur(2.6px);
+}
