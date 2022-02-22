@@ -23,12 +23,16 @@ form.coffee label {
 	display: inline-block
 }
 
-form.coffee input:hover {
+form.coffee option {
+	background-color: #FA0;
+}
+
+form.coffee input:hover, form.coffee select:hover {
 	background-color: #FA0;
 	border: white 5px solid;
 }
 
-form.coffee input, label {
+form.coffee input, form.coffee label, form.coffee select {
 	color: #000;
 	background-color: transparent;
 	background-image: linear-gradient(#FA08, #FA03);
