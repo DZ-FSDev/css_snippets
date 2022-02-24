@@ -1,0 +1,45 @@
+table.relish {
+	text-align: center;
+	overflow: hidden;
+	cursor: default;
+}
+
+table.relish td, table.relish th {
+	position: relative;
+}
+
+table.relish td:first-child, table.relish th:first-child {
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+}
+
+table.relish td:last-child, table.relish th:last-child {
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+table.relish td, table.relish th {
+	background-image: linear-gradient(10deg, #1D03, #0A01);
+}
+
+table.relish td:hover::before {
+	background-color: #1D03;
+	content: '';
+	height: 100%;
+	left: -5000px;
+	position: absolute;
+	top: 0;
+	width: 10000px;
+	z-index: -2;
+}
+
+table.relish td:hover::after {
+	background-color: #1D03;
+	content: '';
+	height: 10000px;
+	left: 0;
+	position: absolute;
+	top: -5000px;
+	width: 100%;
+	z-index: -1;
+}
