@@ -39,3 +39,12 @@ form.relish input, form.relish label, form.relish select {
 	border-radius: 2em;
 	border: 5px transparent solid;
 }
+
+form.relish input:-webkit-autofill,
+form.relish input:-internal-autofill-selected,
+form.relish input:-internal-autofill-previewed{
+    -webkit-text-fill-color: black !important;
+    box-shadow: 1px 1px 1px 30px #1D0 inset !important;
+    -webkit-box-shadow: 1px 1px 1px 30px #1D0 inset !important;
+	border: 5px #1D0 solid !important;
+}
