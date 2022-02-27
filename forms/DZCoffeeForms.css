@@ -43,3 +43,11 @@ form.coffee input, form.coffee label, form.coffee select {
 	border-radius: 2em;
 	border: 5px transparent solid;
 }
+
+form.coffee input:-webkit-autofill,
+form.coffee input:-internal-autofill-selected,
+form.coffee input:-internal-autofill-previewed{
+    -webkit-text-fill-color: black !important;
+    -webkit-box-shadow: 1px 1px 1px 30px #FA0 inset !important;
+	border: 5px #FA0 solid !important;
+}
