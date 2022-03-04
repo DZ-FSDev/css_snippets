@@ -1,5 +1,24 @@
-fieldset.mustard{
+form.mustard fieldset {
+	margin-top: 10px;
+	padding: 10px;
 	border: 2px solid;
-    border-image: linear-gradient(#EE08, transparent) 1;
-    box-shadow: 5px 3px 2px 2px #DE05;
+	border-image: linear-gradient(#DC08, transparent) 1;
+}
+
+form.mustard input[type="submit"], form.mustard input[type="reset"] {
+	margin-top: 1em;
+	padding: 0.8em 1em;
+}
+
+form.mustard input[type="submit"], form.mustard input[type="reset"] {
+	padding: 0.8em 1em;
+}
+
+/*
+	<label for="id">id
+		<input name="id" id="id" />
+	</label>
+*/
+form.mustard label {
+	display: inline-block
 }
